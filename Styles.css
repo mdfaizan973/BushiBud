@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none !important;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Cairo", sans-serif;
+}
+
+/* prec-css */
+.navbar-nav {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.custom-hr {
+  border: none;
+  height: 1px;
+  background-color: #000000;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+.logo {
+  max-width: 20% !important;
+  object-fit: cover;
+}
+
+.box {
+  padding: 20px;
+  margin: 20px;
+}
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+.rounded-button {
+  border-radius: 50px !important;
+  padding: 13px 35px !important;
+}
+
+.custom_cont {
+  margin-top: -35px !important;
+}
+
+.cust_cards {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px !important;
+}
+
+.custm_lorip {
+  margin-top: 150px !important;
+}
+.custm_lorips {
+  margin-top: 100px !important;
+}
+.card_img_container {
+  margin-top: 50px !important;
+}
+.card_img_container .card-text {
+  text-align: start !important;
+}
+
+.customshadow .card-text {
+  text-align: start !important;
+}
+
+.custom-card {
+  border: none !important;
+}
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+.card-img-top-last {
+  width: 80%;
+  object-fit: cover;
+}
+
+#very_main_container {
+  width: 70%;
+  margin: 70px auto;
+}
+#main_container {
+  width: 60%;
+  margin-top: 10px;
+}
+
+#img-child-cont {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+#main_heading {
+  margin: 10px !important;
+}
+
+.second_cont {
+  width: 50% !important ;
+  margin-top: 25px !important;
+  float: right !important;
+}
+
+.third_section {
+  margin-top: 300px !important;
+}
+.carusal_head {
+  margin-top: 350px;
+}
+.card {
+  text-align: center !important;
+}
+.custom-cards {
+  margin-left: 80px !important;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  object-fit: cover;
+}
+.custom-cards-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.logo-img1 {
+  width: 60% !important;
+  margin-top: 15px !important;
+}
+.logo-img2 {
+  width: 50% !important;
+}
+.logo-img3 {
+  width: 30% !important;
+  margin-left: 120px !important;
+}
+
+.custom-logos {
+  margin-top: 110px !important;
+}
+
+.footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  height: 250px;
+  margin-top: 100px;
+}
+
+.smallfot {
+  position: relative;
+  top: 200px;
+}
+/* caraousal  */
+
+.carousel-control-next {
+  background-color: #dbdede;
+  border-radius: 100%;
+  height: 80px !important;
+  width: 80px !important;
+  margin-top: 170px !important;
+}
+
+.carousal-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+}
+
+#main_carousal_container {
+  width: 90%;
+  margin: 100px auto;
+  background-color: rgb(248, 250, 252);
+  border-radius: 25px !important;
+}
+
+#carousalt_img_text {
+  display: flex;
+  align-items: center !important;
+  padding: 12px;
+  width: 45%;
+  justify-content: space-evenly;
+}
+.carousal_img_head {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.carousal_img_head .imgwith_name {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.names_pro {
+  width: 100%;
+}
+@media screen and (min-width: 100px) and (max-width: 450px) {
+  .logo {
+    max-width: 40% !important;
+    object-fit: cover;
+  }
+
+  #main_heading {
+    font-size: 18px !important;
+  }
+  #main_container,
+  #img-child-cont {
+    width: 100%;
+  }
+  .second_cont {
+    width: 100% !important;
+  }
+  .custom-logos .row .card {
+    margin-bottom: 30px !important;
+  }
+  .hidecard {
+    display: none !important;
+  }
+  .carousel-control-next {
+    margin-top: 250px !important;
+    margin-right: 30px !important;
+  }
+  #carousalt_img_text {
+    width: 100% !important;
+  }
+  #carousalt_img_text h2 {
+    font-size: 1.4rem !important;
+  }
+  .customshadow .cust_cards {
+    margin-top: 30px !important;
+  }
+}
